@@ -23,14 +23,14 @@ export const Title = styled.h1`
     height: 30px;
 `
 
-export const ListOfReposContainer = styled.h1`
+export const ListOfFollowersContainer = styled.h1`
     height: 350px;
     width: 100%;
     padding: 10px;
     overflow-y: scroll;
 `
 
-export const Repo = styled.a`
+export const Followers = styled.a`
     width: 100%;
     height: 80px;
     background: rgba(0,0,0,.05);
@@ -43,15 +43,5 @@ export const Repo = styled.a`
         width: 100%;
         overflow: hidden;
         color: #444;
-    }
-    p {
-        font-size: 12px;
-        font-weight: 400;
-        color: #777;
-        width: 100%;
-        height: 30px;
-        overflow: hidden;
-        line-height: 1.3;
-        margin-top: 10px;
     }
 `
