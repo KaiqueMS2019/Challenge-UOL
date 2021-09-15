@@ -1,19 +1,19 @@
 import React, { useContext } from "react";
 
 import Container  from "../components/container";
-import FollowingContainer from '../components/followingContainer'
+import StarredContainer from '../components/starredContainer'
 
 import { context } from "../context";
 
-const Following = props => {
+const Starred = props => {
     const ctx = useContext(context);
 
     return(
         <Container>
-            <FollowingContainer name={ctx.userData?.login} following={ctx.following}/>
+            <StarredContainer name={ctx.userData?.login} starred={ctx.starred}/>
         </Container>
     );
 }
     
-export default Following;
+export default Starred;
 

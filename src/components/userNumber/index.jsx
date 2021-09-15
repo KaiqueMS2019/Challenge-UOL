@@ -1,5 +1,6 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
+import { FiStar } from 'react-icons/fi';
 
 import { Container, NumberContainer} from '../userNumber/styles';
 
@@ -18,9 +19,9 @@ const UserNumbers = props => {
             <h2>Seguidores</h2>
         </NumberContainer>
 
-        <NumberContainer onClick={() => handleOnClick('/following')}>
-            <h1>{props.following}</h1>
-            <h2>Seguindo</h2>
+        <NumberContainer onClick={() => handleOnClick('/starred')}>
+            <FiStar/>
+            <h2>Estrelas</h2>
         </NumberContainer>
 
     </Container>

@@ -23,14 +23,14 @@ export const Title = styled.h1`
     height: 30px;
 `
 
-export const ListOfFollowingContainer = styled.h1`
+export const ListOfStarredContainer = styled.h1`
     height: 350px;
     width: 100%;
     padding: 10px;
     overflow-y: scroll;
 `
 
-export const Following = styled.a`
+export const Starred = styled.a`
     width: 100%;
     height: 80px;
     background: rgba(0,0,0,.05);

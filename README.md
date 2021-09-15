@@ -4,8 +4,8 @@
 
 ## 🔖Sobre
 
-O projeto Challenge UOL tem como intuito, buscar o login do GithUB atraves da Api do mesmo que possibilita todos dados de um usuario. Nesse projeto é buscado pela APi os dados do usuario, os seus repositórios, seu seguidores e quem ele segue. 
-    Esse projeto possibilita que clique nas informações como repositório e veja cada projeto no repositorio e clicando em um expecifico, abre a pagina desse projeto, sendo semelhante para seguidores e seguindo.
+O projeto Challenge UOL tem como intuito, buscar o login do GithUB atraves da Api do mesmo que possibilita todos dados de um usuario. Nesse projeto é buscado pela APi os dados do usuario, os seus repositórios, seu seguidores e o mais visitados pelos os usuários.
+    Esse projeto possibilita que clique nas informações como repositório e veja cada projeto no repositorio e clicando em um expecifico, abre a pagina desse projeto, sendo semelhante para seguidores e estrelas.
 
 
 ---

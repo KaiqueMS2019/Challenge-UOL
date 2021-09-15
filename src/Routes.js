@@ -8,7 +8,7 @@ import {
 import Home from './pages/home';
 import Repos from './pages/repos'
 import Followers from './pages/followers';
-import Following from './pages/following';
+import Starred from './pages/starred';
 
 const Routes = () => (
     <BRouter>
@@ -16,7 +16,7 @@ const Routes = () => (
             <Route path="/" exact component={ Home } />
             <Route path="/repos" component={ Repos } />
             <Route path="/followers" component={ Followers } />
-            <Route path="/following" component={ Following } />
+            <Route path="/starred" component={ Starred } />
 
 
         </Switch>

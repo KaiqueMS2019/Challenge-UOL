@@ -6,19 +6,19 @@ export const ContextProvider = props => {
     const [userData, setUserData] = useState({});
     const [repos, setRepos] = useState({});
     const [followersData, setFollowersData] = useState({});
-    const [following, setFollowing] = useState({});
+    const [starred, setStarred] = useState({});
 
     return (
         <context.Provider value={{
             userData,
             repos,
             followersData,
-            following,
+            starred,
 
             setUserData,
             setRepos,
             setFollowersData,
-            setFollowing,
+            setStarred,
         }}>
             {props.children}
         </context.Provider>
