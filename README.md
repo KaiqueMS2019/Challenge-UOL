@@ -1,10 +1,10 @@
 <h1>
-    Challenge UOL
+    Github Social Network
 </h1>
 
 ## 🔖Sobre
 
-O projeto Challenge UOL tem como intuito, buscar o login do GithUB atraves da Api do mesmo que possibilita todos dados de um usuario. Nesse projeto é buscado pela APi os dados do usuario, os seus repositórios, seu seguidores e o mais visitados pelos os usuários.
+O projeto Github Social Network tem como intuito, buscar o login do GithUB atraves da Api do mesmo que possibilita todos dados de um usuario. Nesse projeto é buscado pela APi os dados do usuario, os seus repositórios, seu seguidores e o mais visitados pelos os usuários.
     Esse projeto possibilita que clique nas informações como repositório e veja cada projeto no repositorio e clicando em um expecifico, abre a pagina desse projeto, sendo semelhante para seguidores e estrelas.
 
 
@@ -23,10 +23,10 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ```bash
 # Clonar o repositório
-$ git clone https://github.com/KaiqueMS2019/Challenge-UOL.git
+$ git clone https://github.com/KaiqueMS2019/Github-social-network.git
 
 # Entrar no diretório
-$  cd Challenge-UOL
+$  cd Github-social-network
 
 # Instalar as dependências
 $  yarn install
